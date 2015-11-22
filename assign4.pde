@@ -386,7 +386,7 @@ void draw() {
       enemyY=floor(random(30, 100));
       for (i=0; i<5; i++) {
         for (j=4; j>=0; j--) {
-          enemyArray[i][j]=1;
+          enemyArray[i][4-i]=1;
         }
       }
     } else {
